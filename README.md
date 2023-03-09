@@ -2,7 +2,7 @@
 classify news  into five categories: business, entertainment, politics, sport, and tech. 
 
 Introduction: <br/>
-The task of the project was to classify news articles into five categories: business, entertainment, politics, sport, and tech.<br/> The BBC News dataset was used for this task, which contains 2,225 articles from the BBC News website from 2004 to 2005.
+The task of the project was to classify news articles into five categories: business, entertainment, politics, sport, and tech.<br/> The BBC News dataset was used for this task.
 <br/>
 Preprocessing: <br/>
 The dataset was loaded using the datasets library, and the text was cleaned by removing punctuations and stopwords.<br/> The text was then tokenized using the Hugging Face tokenizer and the labels were one-hot encoded. The tokenized articles were split into training and validation sets, and the model was fine-tuned on the training set.
